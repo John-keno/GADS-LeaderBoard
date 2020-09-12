@@ -26,7 +26,7 @@ public class LaunchActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (!isConnected(LaunchActivity.this)){
-                    Snackbar.make(view,"No Internet Connection", Snackbar.LENGTH_LONG)
+                    Snackbar.make(view,"No Internet Connection. Please check", Snackbar.LENGTH_LONG)
                             .setAction("Action",null).show();
                 }
                 else{
